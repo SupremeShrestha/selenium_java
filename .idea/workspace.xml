@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="feb6c2cf-e594-44bd-a2ec-5433ee51c7c1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/runner/CucumberRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepdefinations/Saucedemostepdef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testngtests/Firsttest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testngtests/Firstuitest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testngtests/Mousehovertests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testngtests/NestedFrameexample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testngtests/javascriptexecutortest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/simple.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/test.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2c746BUCQ3KVNQbAc1rzyLgWPzk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Feature: simple.executor": "Run",
+    "Maven.selenium_java [clean].executor": "Run",
+    "Maven.selenium_java [install].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.CucumberRunner.executor": "Run",
+    "TestNG.Firsttest.executor": "Run",
+    "TestNG.Firstuitest (1).executor": "Run",
+    "TestNG.Firstuitest.executor": "Run",
+    "TestNG.Javascriptexecutortest.executor": "Run",
+    "TestNG.Javascriptexecutortests.executor": "Run",
+    "TestNG.MouseHoverTests.executor": "Run",
+    "TestNG.MouseHoverTests.open_in_new_link_test.executor": "Debug",
+    "TestNG.Mousehovertests.executor": "Run",
+    "TestNG.Mousehovertests.mousehover.executor": "Run",
+    "TestNG.Mousehovertests.test_new_window.executor": "Run",
+    "TestNG.NestedFrameexample.executor": "Run",
+    "TestNG.SeleniumTEsts.executor": "Run",
+    "TestNG.javascriptexecutortest.executor": "Run",
+    "TestNG.mousehovertests.executor": "Run",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Supreme\Desktop\ITSutra\Framework\selenium_java\src\test\resources\features" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Mousehovertests.test_new_window">
+    <configuration name="CucumberRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.runner" />
+      <option name="MAIN_CLASS_NAME" value="org.example.runner.CucumberRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Firstuitest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.testngtests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.testngtests" />
+      <option name="MAIN_CLASS_NAME" value="org.example.testngtests.Firstuitest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mousehovertests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.testngtests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.testngtests" />
+      <option name="MAIN_CLASS_NAME" value="org.example.testngtests.Mousehovertests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mousehovertests.test_new_window" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.testngtests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.testngtests" />
+      <option name="MAIN_CLASS_NAME" value="org.example.testngtests.Mousehovertests" />
+      <option name="METHOD_NAME" value="test_new_window" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="javascriptexecutortest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.testngtests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.testngtests" />
+      <option name="MAIN_CLASS_NAME" value="org.example.testngtests.javascriptexecutortest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Mousehovertests.test_new_window" />
+        <item itemvalue="TestNG.Mousehovertests" />
+        <item itemvalue="TestNG.javascriptexecutortest" />
+        <item itemvalue="TestNG.CucumberRunner" />
+        <item itemvalue="TestNG.Firstuitest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="feb6c2cf-e594-44bd-a2ec-5433ee51c7c1" name="Changes" comment="" />
+      <created>1707449108779</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707449108779</updated>
+    </task>
+    <servers />
+  </component>
+</project>
