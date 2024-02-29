@@ -1,6 +1,11 @@
 package org.example.testngtests;
 
-import org.openqa.selenium.*;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.example.utilities.Commonfunctions;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
@@ -30,6 +35,7 @@ public class Mousehovertests {
         ops.addArguments("--remote-allow-origins=*");
         ops.addArguments("--start-maximized");
         ops.addArguments("--incognito");
+        ops.addArguments("--headless=new");
         ops.setExperimentalOption("useAutomationExtension", false);
         ops.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
         driver = new ChromeDriver(ops);
@@ -42,7 +48,7 @@ public class Mousehovertests {
         Actions actions = new Actions(driver);
         WebElement addon_element = driver.findElement(By.xpath("//div[text()='Add-ons']"));
         actions.moveToElement(addon_element).build().perform();
-        WebElement you_first = driver.findElement(By.xpath("//a[contains(@href,'YouFirst.aspx')]"));
+        WebElement you_first = driver.findElement(By.xpath("//a[contains(@href,'YouFirst')]"));
         String targetattr = you_first.getAttribute("target");
 
         if (targetattr.equals("_blank")) {
@@ -100,11 +106,8 @@ public class Mousehovertests {
     public void test_new_window() {
         driver.get("https://demoqa.com/browser-windows");
         String currentwindowid = driver.getWindowHandle();
-//        driver.findElement(By.xpath("//button[@id='windowButton']")).click();
-        WebElement new_window = driver.findElement(By.xpath("//button[@id='windowButton']"));
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);",new_window);
-
-        new_window.click();
+//        Commonfunctions.click(By.xpath("//button[@id='windowButton']"), driver);
+        driver.findElement(By.xpath("//button[@id='windowButton']")).click();
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.numberOfWindowsToBe(2));
